@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlarmSetter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_parameters_editor">ParametersEditor</string>
+    <string name="add_setting_label">Add Setting</string>
+    <string name="setting_name_label">Setting Name</string>
+    <string name="setting_name_message">Enter the name for this setting</string>
+    <string name="ready_time_label">Ready Time</string>
+    <string name="ready_time_message">Enter the time taken to get ready</string>
+    <string name="commute_method_label">Commute Method</string>
+    <string name="commute_method_message">Enter the transportation taken</string>
+    <string name="commute_time_label">Commute Time</string>
+    <string name="commute_time_message">Enter the time taken to get to event</string>
+    <string name="def_setting_label">Use as default</string>
+    <string name="def_setting_message">Use these settings when no other provided</string>
+    <string name="save_setting_label">Save Setting</string>
+    <string name="save_setting_message">Adjust parameters for this setting</string>
+    <string name="title_activity_alarm_creator">AlarmCreator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_temp">Temp</string>
+    <string name="title_activity_preferences">Preferences</string>
+
+</resources>

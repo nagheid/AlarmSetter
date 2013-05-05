@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TableLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+        
+        <TableRow>
+            <CheckBox android:id="@+id/use_as_def"
+			          android:layout_width="wrap_content"
+			          android:layout_height="wrap_content"
+			          android:text="@string/def_setting_label" 
+			          android:hint="@string/def_setting_message" />
+        </TableRow>
+        
+        <TableRow>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/setting_name_label"/>
+        </TableRow>
+        <TableRow>
+            <EditText android:id="@+id/setting_name_text"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:layout_weight="1"
+                      android:hint="@string/setting_name_message"/>
+        </TableRow>
+        
+        <TableRow>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/ready_time_label"/>
+        </TableRow>
+        <TableRow>
+            <EditText android:id="@+id/ready_time_text"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:layout_weight="1"
+                      android:hint="@string/ready_time_message"
+                      android:inputType="time" />
+        </TableRow>
+        
+        <TableRow>
+            <TextView android:text="@string/commute_method_label"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <!--  TODO: use spinner -->
+            <EditText android:id="@+id/commute_method_text"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:layout_weight="1"
+                      android:hint="@string/commute_method_message" />
+        </TableRow>
+        
+        <TableRow>
+            <TextView android:text="@string/commute_time_label"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <EditText android:id="@+id/commute_time_text"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:layout_weight="1"
+                      android:hint="@string/commute_time_message"
+                      android:inputType="time" />
+        </TableRow>
+        
+       	<TableRow>
+            <Button android:layout_height="wrap_content"
+                    android:text="@string/save_setting_label"
+                    android:id="@+id/save_setting_button"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+            		android:onClick="onSaveButtonClicked"
+                    android:hint="@string/save_setting_message" />
+        </TableRow>
+    </TableLayout>
+     
+</LinearLayout>
